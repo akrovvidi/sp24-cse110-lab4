@@ -33,29 +33,29 @@ Line 12 of the code will output '3' which is the length of the prices array. Thi
 The function will return the discounted array which contains the final prices of all the prices after discount. There will be no error even though discounted is defined using 'const' since we can still modify/alter the contents of the discounted array but can never re-assign it to a new array since it is defined as a constant. Therefore, our push operations are valid and does not cause an error.
 
 ## Question 12:
-a). student.name
-b). student['Grad Year']
-c). student.greeting()
-d). student['Favorite Teacher'].name
-e). student.courseLoad[0]
+- a). student.name
+- b). student['Grad Year']
+- c). student.greeting()
+- d). student['Favorite Teacher'].name
+- e). student.courseLoad[0]
 
 ## Question 13:
-a). The output is '32' because the '+' operator concatenates strings when one operand is a string
-b). The output is 1 because the - operator converts the string '3' to a number before subtraction
-c). The output is 3 because null is treated as a zero in arithmetic operations
-d). The output is '3null' because the '+' operator concatenates strings when one operand is a string
-e). The output is 4 since true is treated as a 1 in arithmetic operations
-f). The output is 0 since both false and null are treated as zeros in arithmetic operations
-g). The output is '3undefined' because the '+' operator concatenates strings when one operand is a string
-h). The output is NaN because the '-' operator requires numeric operands and undefined cannot be converted to a number
+- a). The output is '32' because the '+' operator concatenates strings when one operand is a string
+- b). The output is 1 because the - operator converts the string '3' to a number before subtraction
+- c). The output is 3 because null is treated as a zero in arithmetic operations
+- d). The output is '3null' because the '+' operator concatenates strings when one operand is a string
+- e). The output is 4 since true is treated as a 1 in arithmetic operations
+- f). The output is 0 since both false and null are treated as zeros in arithmetic operations
+- g). The output is '3undefined' because the '+' operator concatenates strings when one operand is a string
+- h). The output is NaN because the '-' operator requires numeric operands and undefined cannot be converted to a number
 
 ## Question 14:
-a). The result is true because the strings are converted to numbers before they are compared
-b). The result is false due to the lexographic comparison
-c). The result is true since the '==' operator performs type coercion before the comparison
-d). The result is false since the '===' does not perform type coercion before comparison and performs strict equality comparison instead
-e). The result is false since the '==' operator does not convert boolean values to numbers before comparison
-f). The result is true since Boolean(2) evaluates to true and the '===' operator performs strict equality comparison
+- a). The result is true because the strings are converted to numbers before they are compared
+- b). The result is false due to the lexographic comparison
+- c). The result is true since the '==' operator performs type coercion before the comparison
+- d). The result is false since the '===' does not perform type coercion before comparison and performs strict equality comparison instead
+- e). The result is false since the '==' operator does not convert boolean values to numbers before comparison
+- f). The result is true since Boolean(2) evaluates to true and the '===' operator performs strict equality comparison
 
 ## Question 15:
 The main difference is that '==' operator performs type coercion before the comparison. So it converts both operands to the same type before the comparison is done. On the other hand, the '===' operator does not perform type coercion and compares both value and type. 
